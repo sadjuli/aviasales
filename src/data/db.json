@@ -1,0 +1,34 @@
+{
+    "companies": [
+        { "id": 1, "name": "Победа", "logoImg": "pobeda.png" },
+		{ "id": 2, "name": "Red Wings", "logoImg": "redwings.png" },
+		{ "id": 3, "name": "S7 Airlines", "logoImg": "s7.png" },
+		{ "id": 4, "name": "Аэрофлот", "logoImg": "aeroflot.png" },
+		{ "id": 5, "name": "Nordwind", "logoImg": "nordwind.png" },
+		{ "id": 6, "name": "Ямал", "logoImg": "yamal.png" },
+		{ "id": 7, "name": "UTAir", "logoImg": "utair.png" }
+      
+    ],
+    "flights": [
+      { "id": 0, "from": "DME", "to": "AER", "company": "Nordwind", "price": "7058.94", "currency": "RUB", "time": { "startTime": "13:59", "endTime": "17:59" }, "duration": "4", "date": "18.09.2024", "connectionAmount": 3 },
+      { "id": 1, "from": "AER", "to": "KRR", "company": "Nordwind", "price": "6762.95", "currency": "RUB", "time": { "startTime": "21:34", "endTime": "22:34" }, "duration": "1", "date": "18.09.2024", "connectionAmount": 2 },
+      { "id": 2, "from": "KZN", "to": "SVO", "company": "Nordwind", "price": "8838.05", "currency": "RUB", "time": { "startTime": "16:45", "endTime": "18:45" }, "duration": "2", "date": "18.09.2024", "connectionAmount": 2 },
+      { "id": 3, "from": "KZN", "to": "OVB", "company": "Победа", "price": "9826.81", "currency": "RUB", "time": { "startTime": "18:58", "endTime": "21:58" }, "duration": "3", "date": "18.09.2024", "connectionAmount": 3 },
+      { "id": 4, "from": "KZN", "to": "SVX", "company": "UTAir", "price": "10797.17", "currency": "RUB", "time": { "startTime": "00:42", "endTime": "02:42" }, "duration": "2", "date": "18.09.2024", "connectionAmount": 2 },
+      { "id": 5, "from": "DME", "to": "KZN", "company": "Ямал", "price": "5600.43", "currency": "RUB", "time": { "startTime": "16:38", "endTime": "17:38" }, "duration": "1", "date": "18.09.2024", "connectionAmount": 3 },
+      { "id": 6, "from": "VKO", "to": "AER", "company": "UTAir", "price": "10454.85", "currency": "RUB", "time": { "startTime": "02:41", "endTime": "06:41" }, "duration": "4", "date": "18.09.2024", "connectionAmount": 2 },
+      { "id": 7, "from": "SVO", "to": "VKO", "company": "UTAir", "price": "4263.32", "currency": "RUB", "time": { "startTime": "16:23", "endTime": "18:23" }, "duration": "2", "date": "18.09.2024", "connectionAmount": 3 },
+      { "id": 8, "from": "LED", "to": "DME", "company": "UTAir", "price": "6036.30", "currency": "RUB", "time": { "startTime": "04:22", "endTime": "06:22" }, "duration": "2", "date": "18.09.2024", "connectionAmount": 1 },
+      { "id": 9, "from": "DME", "to": "KZN", "company": "Ямал", "price": "8506.72", "currency": "RUB", "time": { "startTime": "20:11", "endTime": "00:11" }, "duration": "4", "date": "18.09.2024", "connectionAmount": 1 },
+      { "id": 10, "from": "SVO", "to": "AER", "company": "Ямал", "price": "5766.54", "currency": "RUB", "time": { "startTime": "16:23", "endTime": "21:23" }, "duration": "5", "date": "18.09.2024", "connectionAmount": 0 },
+      { "id": 11, "from": "KRR", "to": "DME", "company": "Победа", "price": "7507.74", "currency": "RUB", "time": { "startTime": "20:46", "endTime": "00:46" }, "duration": "4", "date": "18.09.2024", "connectionAmount": 2 },
+      { "id": 12, "from": "SVO", "to": "KZN", "company": "Ямал", "price": "12598.24", "currency": "RUB", "time": { "startTime": "09:10", "endTime": "10:10" }, "duration": "1", "date": "18.09.2024", "connectionAmount": 3 },
+      { "id": 13, "from": "DME", "to": "LED", "company": "Red Wings", "price": "3242.34", "currency": "RUB", "time": { "startTime": "06:57", "endTime": "08:57" }, "duration": "2", "date": "18.09.2024", "connectionAmount": 3 },
+      { "id": 14, "from": "VKO", "to": "OVB", "company": "Red Wings", "price": "8677.47", "currency": "RUB", "time": { "startTime": "11:59", "endTime": "12:59" }, "duration": "1", "date": "18.09.2024", "connectionAmount": 2 },
+      { "id": 15, "from": "LED", "to": "KRR", "company": "Аэрофлот", "price": "4276.71", "currency": "RUB", "time": { "startTime": "11:25", "endTime": "13:25" }, "duration": "2", "date": "18.09.2024", "connectionAmount": 3 },
+      { "id": 16, "from": "KUF", "to": "SVX", "company": "UTAir", "price": "12209.67", "currency": "RUB", "time": { "startTime": "18:50", "endTime": "21:50" }, "duration": "3", "date": "18.09.2024", "connectionAmount": 3 },
+      { "id": 17, "from": "OVB", "to": "KRR", "company": "Ямал", "price": "5262.72", "currency": "RUB", "time": { "startTime": "04:23", "endTime": "09:23" }, "duration": "5", "date": "18.09.2024", "connectionAmount": 0 },
+      { "id": 18, "from": "KRR", "to": "SVX", "company": "Nordwind", "price": "8499.86", "currency": "RUB", "time": { "startTime": "19:16", "endTime": "00:16" }, "duration": "5", "date": "18.09.2024", "connectionAmount": 3 },
+      { "id": 19, "from": "SVX", "to": "KRR", "company": "Red Wings", "price": "8800.64", "currency": "RUB", "time": { "startTime": "20:45", "endTime": "21:45" }, "duration": "1", "date": "18.09.2024", "connectionAmount": 1 } 
+    ]
+  }
