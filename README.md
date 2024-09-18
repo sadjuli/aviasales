@@ -1,5 +1,5 @@
-yarn install
+Установить все необходимые пакеты: yarn install
 
-npx json-server --watch src/data/db.json --port 3000
+Запустить json-сервер: npx json-server --watch src/data/db.json --port 3000
 
-yarn start
+Запустить проект: yarn start
